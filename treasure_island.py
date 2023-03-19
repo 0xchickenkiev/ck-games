@@ -33,7 +33,7 @@ if choice1.lower() == "left":
             print("YOU FOUND THE TREASURE, YOU WIN")
         elif choice3.lower() == "blue":
             print("You enter a room full of gorillas and get beaten to death, game over.")
-        elif choice3.lower() == "red":
+        else:
             print("You walk into a room of fire, game over.")
     else: 
         print("You get hypothermia and die halfway across, game over.")
